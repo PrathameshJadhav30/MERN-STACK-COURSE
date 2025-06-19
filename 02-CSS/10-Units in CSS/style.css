@@ -1,0 +1,13 @@
+div {
+  width: 50%;
+  height: 20vh;
+  background-color: lightgray;
+}
+p {
+  font-size: 2em;
+  color: yellow;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  height: 10px;
+}
