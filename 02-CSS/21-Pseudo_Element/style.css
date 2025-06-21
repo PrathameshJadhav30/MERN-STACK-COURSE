@@ -1,0 +1,74 @@
+p::first-letter {
+    font-size: 200%;
+    color: purple;
+}
+p::first-line {
+    font-weight: bold;
+    color: darkblue;
+}
+p::before {
+    content: "Note: ";
+    font-style: italic;
+    color: gray;
+}
+p::after {
+    content: " - End of paragraph.";
+    font-style: italic;
+    color: gray;
+}
+p::selection {
+    background-color: yellow;
+    color: black;
+}
+p::placeholder {
+    color: lightgray;
+    font-style: italic;
+}
+p::marker {
+    color: orange;
+    font-weight: bold;
+}
+p::backdrop {
+    background-color: lightblue;
+    color: navy;
+}
+p::spelling-error {
+    background-color: pink;
+    text-decoration: underline;
+}
+p::grammar-error {
+    background-color: lightcoral;
+    text-decoration: wavy underline;
+}
+p::cue {
+    color: darkgreen;
+    font-style: italic;
+}
+p::cue-region {
+    background-color: lightyellow;
+    color: darkred;
+}
+p::placeholder-shown {
+    color: gray;
+    font-style: italic;
+}
+p::slotted(*) {
+    color: teal;
+    font-weight: bold;
+}
+p::part(*) {
+    color: maroon;
+    font-style: italic;
+}
+p::view-transition-group {
+    background-color: lavender;
+    color: darkslateblue;
+}
+p::view-transition-name {
+    color: darkorchid;
+    font-weight: bold;
+}
+p::view-transition-old {
+    color: darkgray;
+    text-decoration: line-through;
+}

@@ -1,0 +1,16 @@
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active {
+    color: green;
+    text-decoration: none;
+}
+a:focus {
+    color: orange;
+    outline: 2px solid blue;
+}
+a:visited {
+    color: purple;
+    text-decoration: line-through;
+}
