@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+}
+
+.percent {
+  width: 50%;
+  background-color: lightsteelblue;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.em-rem {
+  font-size: 1.5em; /* 1.5 × parent */
+  padding: 2rem;     /* 2 × root font size */
+  background-color: lavender;
+}
+.em-rem p {
+  font-size: 1.2em; /* 1.2 × parent */
+}
+.viewport {
+  width: 100vw; /* 100% of viewport width */
+  padding: 20px;
+  background-color: lightcoral;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: lightgreen;
+}
+.cal{
+    width: calc(100% - 40px); /* 100% minus padding */
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+}

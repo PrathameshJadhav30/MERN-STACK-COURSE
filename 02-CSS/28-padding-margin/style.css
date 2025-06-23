@@ -1,0 +1,38 @@
+.spaced {
+  background-color: lightgreen;
+  padding: 30px;
+  margin: 40px;
+  border: 2px solid darkgreen;
+}
+.spaced p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+.no-padding {
+  background-color: lightblue;
+  margin: 40px;
+  border: 2px solid darkblue;
+}
+.no-padding p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+.no-margin {
+  background-color: lightcoral;
+  padding: 30px;
+  border: 2px solid darkred;
+}
+.no-margin p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+.both {
+  background-color: lightgoldenrodyellow;
+  padding: 30px;
+  margin: 40px;
+  border: 2px solid darkgoldenrod;
+}
+.both p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}

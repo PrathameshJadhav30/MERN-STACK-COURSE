@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+div {
+    font-weight: bold;
+    color: white;
+    background-color: steelblue;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* 1. Basic Box */
+.box {
+    width: 200px;
+    height: 50px;
+}
+
+/* 2. Box with Padding */
+.box-with-padding {
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    background-color: #3498db;
+}
+
+/* 3. Box with Border */
+.box-with-border {
+    width: 200px;
+    height: 50px;
+    border: 5px solid #2c3e50;
+    background-color: #9b59b6;
+}
+
+/* 4. Box with Margin */
+.box-with-margin {
+    width: 200px;
+    height: 50px;
+    margin: 40px;
+    background-color: #e67e22;
+}
+
+/* 5. Box with Padding, Border, and Margin */
+.box-with-all {
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    border: 3px solid #000;
+    margin: 30px;
+    background-color: #27ae60;
+}
+
+/* 6. Complex Box Model */
+.box-with-complex {
+    width: 250px;
+    height: 50px;
+    padding: 20px 30px;
+    border: 6px dashed #8e44ad;
+    margin: 40px 60px;
+    background-color: #e74c3c;
+    box-sizing: border-box;
+}

@@ -1,0 +1,11 @@
+.rectangle {
+  width: 300px;
+  height: 150px;
+  background-color: orange;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  background-color: lightblue;
+  border-radius: 50%;
+}
