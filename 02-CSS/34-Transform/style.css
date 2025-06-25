@@ -1,0 +1,25 @@
+.rotate-box, .scale-box, .translate-box, .skew-box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: tomato;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
+
+.rotate-box {
+  transform: rotate(30deg);
+}
+
+.scale-box {
+  transform: scale(1.5);
+}
+
+.translate-box {
+  transform: translate(50px, 20px);
+}
+
+.skew-box {
+  transform: skew(20deg, 10deg);
+}

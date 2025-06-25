@@ -1,0 +1,10 @@
+.transition-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.transition-button:hover {
+  background-color: green;
+}

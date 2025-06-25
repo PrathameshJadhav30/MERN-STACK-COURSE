@@ -1,0 +1,16 @@
+.shadow-box, .inset-box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
+}
+
+.shadow-box {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.inset-box {
+  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
