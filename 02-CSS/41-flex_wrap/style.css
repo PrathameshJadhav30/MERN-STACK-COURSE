@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+.item {
+  flex: 0 0 150px;
+  padding: 10px;
+  background: pink;
+  margin: 5px;
+}

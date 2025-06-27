@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  border: 2px solid black;
+}
+.item {
+  padding: 10px;
+  background: lavender;
+  margin: 5px;
+}
+.custom {
+  align-self: flex-end;
+}

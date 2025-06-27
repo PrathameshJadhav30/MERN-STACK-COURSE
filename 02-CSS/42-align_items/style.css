@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+  border: 2px solid black;
+}
+.item {
+  padding: 10px;
+  background: yellow;
+  margin: 5px;
+}
+.tall {
+  height: 150px;
+}

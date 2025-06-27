@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.item {
+  padding: 10px;
+  background: orange;
+  margin: 5px;
+}

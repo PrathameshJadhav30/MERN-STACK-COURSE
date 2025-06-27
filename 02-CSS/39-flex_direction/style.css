@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.item {
+  padding: 10px;
+  background: lightgreen;
+  margin: 5px;
+}
