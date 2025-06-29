@@ -1,0 +1,14 @@
+.responsive-box {
+  width: 100%;
+  height: 200px;
+  background-color: tomato;
+  text-align: center;
+  color: white;
+  line-height: 200px;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+    background-color: skyblue;
+  }
+}

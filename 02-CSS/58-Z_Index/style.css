@@ -1,0 +1,22 @@
+.box {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+}
+
+.one {
+  background-color: red;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+
+.two {
+  background-color: blue;
+  top: 80px;
+  left: 80px;
+  z-index: 2;
+}

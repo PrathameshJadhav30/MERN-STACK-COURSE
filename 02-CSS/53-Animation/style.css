@@ -1,0 +1,17 @@
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+.animate-box {
+  width: 100px;
+  height: 100px;
+  background: crimson;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}

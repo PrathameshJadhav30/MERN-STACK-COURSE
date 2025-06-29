@@ -1,0 +1,16 @@
+@keyframes colorSteps {
+  0%   { background-color: red; }
+  25%  { background-color: yellow; }
+  50%  { background-color: green; }
+  75%  { background-color: blue; }
+  100% { background-color: red; }
+}
+
+.multi-step-box {
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  animation: colorSteps 4s infinite;
+}

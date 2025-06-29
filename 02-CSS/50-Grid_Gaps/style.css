@@ -1,0 +1,13 @@
+.gap-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.gap-grid div {
+  background: purple;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

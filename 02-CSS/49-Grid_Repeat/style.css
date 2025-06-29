@@ -1,0 +1,12 @@
+.repeat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.cell {
+  background: teal;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
