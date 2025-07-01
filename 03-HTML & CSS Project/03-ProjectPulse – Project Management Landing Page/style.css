@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: #1e1e2f;
+  color: white;
+  padding: 2rem 1rem;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.brand {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  margin: 1.2rem 0;
+}
+
+.nav a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.section h1,
+.section h2 {
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 1.2rem;
+  flex: 1 1 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-bottom: 0.8rem;
+}
+
+.card ul {
+  list-style: square;
+  margin-left: 1rem;
+}
+
+/* Team Grid */
+.team-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  border: 3px solid #ccc;
+  height: 100px ;
+  width: 100px;
+object-fit: cover;
+}
+
+/* Contact Form */
+form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 0.75rem;
+  background: #1e1e2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  .cards,
+  .team-grid {
+    flex-direction: column;
+  }
+}
