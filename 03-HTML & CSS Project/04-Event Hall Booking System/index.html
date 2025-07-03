@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Hall Booking System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Event Hall</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Book Your Perfect Event Hall</h1>
+      <p>Simple, Secure & Fast Booking</p>
+      <a href="#booking" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="booking" class="booking-section">
+    <h2>Hall Booking Form</h2>
+    <form class="booking-form">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="date" required />
+      <input type="number" placeholder="Number of Guests" min="1" required />
+      <textarea placeholder="Event Description" rows="4"></textarea>
+      <button type="submit" class="btn">Submit Booking</button>
+    </form>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service-item">🎉 Wedding & Reception Halls</div>
+      <div class="service-item">🎤 Corporate Events & Conferences</div>
+      <div class="service-item">🍽️ Catering & Decoration Services</div>
+      <div class="service-item">🪑 Seating & AV Arrangements</div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-box">
+      <p>"The booking process was super easy. The hall was perfect!"</p>
+      <h4>- Anjali Patil</h4>
+    </div>
+    <div class="testimonial-box">
+      <p>"Best place for corporate functions. Great service & facilities!"</p>
+      <h4>- Rahul Mehta</h4>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>&copy; 2025 Event Hall Booking System | Designed by Prathamesh Jadhav</p>
+  </footer>
+</body>
+</html>
