@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Query Selectors</title></head>
+<body>
+  <div class="box">Box A</div>
+  <div class="box">Box B</div>
+
+  <script>
+    const firstBox = document.querySelector(".box");
+    const allBoxes = document.querySelectorAll(".box");
+    firstBox.style.border = "2px solid red";
+    allBoxes.forEach(box => box.style.padding = "10px");
+  </script>
+</body>
+</html>

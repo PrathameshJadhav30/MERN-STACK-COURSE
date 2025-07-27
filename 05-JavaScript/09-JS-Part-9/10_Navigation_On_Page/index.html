@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>DOM Navigation</title></head>
+<body>
+  <div id="wrapper">
+    <p id="para1">Para 1</p>
+    <p id="para2">Para 2</p>
+  </div>
+
+  <script>
+    const p2 = document.getElementById("para2");
+    console.log(p2.previousElementSibling); // para1
+    console.log(p2.parentElement);          // wrapper div
+  </script>
+</body>
+</html>

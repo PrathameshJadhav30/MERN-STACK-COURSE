@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Select by Tag Name</title></head>
+<body>
+  <p>Para 1</p>
+  <p>Para 2</p>
+  <p>Para 3</p>
+
+  <script>
+    const allParas = document.getElementsByTagName("p");
+    for (let para of allParas) {
+      para.style.background = "lightyellow";
+    }
+  </script>
+</body>
+</html>

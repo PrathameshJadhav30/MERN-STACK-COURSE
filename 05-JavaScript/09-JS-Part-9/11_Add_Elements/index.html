@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Add Element</title></head>
+<body>
+  <div id="container"></div>
+  <button onclick="addElement()">Add</button>
+
+  <script>
+    function addElement() {
+      const div = document.createElement("div");
+      div.textContent = "New Element";
+      div.style.border = "1px solid black";
+      div.style.margin = "5px";
+      document.getElementById("container").appendChild(div);
+    }
+  </script>
+</body>
+</html>

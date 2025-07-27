@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Select by Class Name</title></head>
+<body>
+  <p class="info">Paragraph 1</p>
+  <p class="info">Paragraph 2</p>
+
+  <script>
+    const paras = document.getElementsByClassName("info");
+    for (let p of paras) {
+      p.style.fontSize = "20px";
+    }
+  </script>
+</body>
+</html>

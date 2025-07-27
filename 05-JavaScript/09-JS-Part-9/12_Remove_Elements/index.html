@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Remove Element</title></head>
+<body>
+  <div id="container">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+  <button onclick="removeLast()">Remove Last</button>
+
+  <script>
+    function removeLast() {
+      const container = document.getElementById("container");
+      const last = container.lastElementChild;
+      if (last) container.removeChild(last);
+    }
+  </script>
+</body>
+</html>
