@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Event Listeners for Elements</title></head>
+<body>
+  <button class="btn">Button 1</button>
+  <button class="btn">Button 2</button>
+
+  <script>
+    const buttons = document.querySelectorAll('.btn');
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        alert(btn.textContent + ' clicked');
+      });
+    });
+  </script>
+</body>
+</html>

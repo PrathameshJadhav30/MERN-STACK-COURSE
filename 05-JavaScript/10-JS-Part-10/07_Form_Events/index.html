@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Form Events</title></head>
+<body>
+  <form id="myForm">
+    <input type="text" name="username" placeholder="Username" />
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('myForm');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault(); // prevents reload
+      alert('Form Submitted!');
+    });
+  </script>
+</body>
+</html>

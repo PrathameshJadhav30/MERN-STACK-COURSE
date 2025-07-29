@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><title>More Events</title></head>
+<body>
+  <input type="text" id="inputBox" placeholder="Type here" />
+  <p id="output"></p>
+
+  <script>
+    const inputBox = document.getElementById('inputBox');
+    const output = document.getElementById('output');
+
+    inputBox.addEventListener('input', () => {
+      output.textContent = "You typed: " + inputBox.value;
+    });
+
+    inputBox.addEventListener('focus', () => {
+      console.log("Input Focused");
+    });
+
+    inputBox.addEventListener('blur', () => {
+      console.log("Input Blurred");
+    });
+  </script>
+</body>
+</html>

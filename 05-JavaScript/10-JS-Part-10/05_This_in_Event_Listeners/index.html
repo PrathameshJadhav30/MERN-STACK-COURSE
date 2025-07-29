@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>This Keyword in Event</title></head>
+<body>
+  <button class="btn">Click Me</button>
+
+  <script>
+    document.querySelector('.btn').addEventListener('click', function() {
+      this.style.backgroundColor = 'yellow'; // 'this' refers to the button
+    });
+  </script>
+</body>
+</html>

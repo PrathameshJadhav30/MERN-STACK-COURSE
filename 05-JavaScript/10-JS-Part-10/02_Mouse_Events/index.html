@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mouse Events</title></head>
+<body>
+  <button id="hoverBtn">Hover or Click Me</button>
+
+  <script>
+    const btn = document.getElementById('hoverBtn');
+    btn.onclick = () => alert("Clicked!");
+    btn.onmouseover = () => console.log("Mouse Over!");
+    btn.onmouseout = () => console.log("Mouse Out!");
+  </script>
+</body>
+</html>
