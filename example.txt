@@ -1,0 +1,1 @@
+Hello, this is Node writing to a file!
