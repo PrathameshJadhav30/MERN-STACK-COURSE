@@ -1,0 +1,19 @@
+<%- include("partials/header") %>
+<h2>Instagram Posts</h2>
+
+<ul>
+  <% posts.forEach(post => { %>
+    <li>
+      <strong><%= post.user %></strong>: <%= post.caption %>
+      <br>
+      ❤️ Likes: <%= post.likes %>
+
+      <% if (post.likes > 100) { %>
+        <span style="color:green;">🔥 Popular Post!</span>
+      <% } %>
+    </li>
+    <hr>
+  <% }) %>
+</ul>
+
+<%- include("partials/footer") %>
